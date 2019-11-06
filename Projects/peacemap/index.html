@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>PeaceMap - Shruti Jain</title>
+
+  <!-- Font Awesome Icons -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#introduction">Introduction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#visualizations">Visualizations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#methods">Methods</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#results">Results</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-white font-weight-bold">PeaceMap</h1>
+          <hr class="divider my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <h4 class="text-white font-weight-light mb-5">A tool to predict civil conflict</h4>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  
+  <!-- Introduction Section -->
+  <section class="page-section" id="introduction">
+    <div class="container">
+      <h2 class="text-center mt-0">Introduction</h2>
+      <hr class="divider my-4">
+      <p>Conflict prediction is a crucial issue for the international community, especially for countries in fragile contexts - armed conflict led to over 150,000 deaths across the globe in 2018 alone. </p> 
+		  
+	  <p>PeaceMap is a tool to predict civil conflict in fragile nation states across the world. This tool can help the governments in such delicate contexts, and intergovernmental organizations like the UN, and the World Bank, to develop a robust and effective early warning system for conflict prediction so as to save human lives and minimize economic costs. </p>
+		  
+	  <hr>
+	  <h5 class="text-center mt-0">Data</h5>
+	  
+      <p>My primary source of data is <a href="https://www.acleddata.com/" target="_blank">ACLED</a> - the Armed Conflict Location & Event Data Project, which is a publicly available data repository cataloguing global conflict events on a daily basis. It is a real time data source on civil conflict, political violence, and protest in the developing world. Additionaly, I leveraged geospatial data for population, poverty, night time lights, elevation, and temperature. My data source for population and poverty is <a href="https://www.worldpop.org/" target="_blank">WorldPop</a>, for night time lights is National Oceanic and Atmospheric Administration's <a href="https://www.ngdc.noaa.gov/eog/viirs/download_dnb_composites.html#NTL_2015" target="_blank">Earth Observation Group</a>, for elevation is <a href="http://srtm.csi.cgiar.org/" target="_blank">CGIAR Consortium for Spatial Information</a>, and for temperature is <a href="http://worldclim.org/version2" target="_blank">WorldClim.</a> </p>
+		  
+	  <hr>
+	  <h5 class="text-center mt-0">Tools</h5>
+      
+      <p class="text-center mt-0">Python : Keras | TensorFlow | Scikit-learn | Pandas | Numpy | Matplotlib </p>
+	  <p class="text-center mt-0">R : Raster | Rgdal | Rgeos </p>
+    </div>
+  </section>
+  
+
+  <!-- Visualizations Section -->
+  <section class="page-section" id="visualizations">
+    <div class="container">
+      <h2 class="text-center mt-0">Visualizations</h2>
+      <hr class="divider my-4">
+      <p> I showcase my analysis considering the case of Pakistan, on account of the country's history of political turmoil in the last decade. In the figure below, we can see a snapshot of conflict events in Pakistan from 2010-2018. The marker color in this figures signifies the type of event (such as battles, explosions etc.), and the marker size signifies the number of fatalities associated with each event. We can see how these incidents are clustered around very specific geographical areas (especially along the Northwestern border) and these spatial trends stay stable throughout the decade. </p>
+	  
+	  <p> Furthermore, we can observe the number of conflict events (particularly battles and explosions) and fatalities reducing significantly in the northwestern region of the country from 2010 to 2018. This shows that the government's interventions to restore peace in this mountaneous region at the Afghan-Pak border were successful to some extent. </p>
+	  
+	  <br><center><img src="img/Viz1.jpg" width="100%"></center><br>
+	  
+	  <hr>
+	  
+	  <p> In this next figure, we see the monthly time trends in protests, explosions, and violence against civilians. The figure also includes a few important political events in the country's timeline for reference. We can see few interesting trends here - for example, Osama Bin Laden's death saw an increase in ‘Violence against civilians’ and ‘explosions’ probably because of Taliban's retaliatory tactics; the school attack in Peshawar led to a decreasing trend in explosions an increasing trend in protests; and Nawaz Sharif resigned amid rising protests. This figure shows us how major events influence the future. </p>
+	  
+	  <br><center><img src="img/Viz2.jpg" width="100%"></center><br>
+    </div>
+  </section>
+
+
+  <!-- Methods Section -->
+  <section class="page-section" id="methods">
+    <div class="container">
+      <h2 class="text-center mt-0">Methods</h2>
+      <hr class="divider my-4">
+      <p> My goal was to predict conflict events in the coming month at a spatial resolution of 100 km x 100 km. For the purpose of prediction, I define a conflict event as the occurance of one or more instances of battles, explosions, or violence against civilians in a given location in a given month. </p>
+	  
+	  <p> A very simple way to do this would be to say that whatever happens in a location this month will happen next month. Using this approach, we get recall of 0.63, i.e. we can predict 63% of the conflict events that are going to happen next month, and a precision of 0.63, i.e. 63% of the events we predict are actually going to be true conflict events. This means that we would be missing almost 40% of conflict events if we were to use this approach. </p>
+	  
+	  <br><center><img src="img/Naive.jpg" width="25%"></center><br>
+	  
+	  <p> In order to improve upon this basic model, I used Recurrent Neural Network with Long Short Term Memory units for time series forecasting of conflict. I combined the time series conflict data with predictors such as population, elevation, poverty etc. and fed my feature set into the model shown below. </p>
+	  
+	  <br><center><img src="img/Methods.jpg" width="80%"></center><br>
+	  
+	  <p> Using this model, I obtained a recall of 0.82 which means that I reduced missed conflict events almost by half, and a precision of 0.64 which means that I did not increase wrongly identified events. </p>
+	  
+	  <br><center><img src="img/Rnn.jpg" width="35%"></center><br>
+    </div>
+  </section>
+  
+  
+  <!-- Results Section -->
+  <section class="page-section" id="results">
+    <div class="container">
+      <h2 class="text-center mt-0">Results</h2>
+      <hr class="divider my-4">
+      <p> The figure below displays the conflict hotspots for September 2019. The figure on the left shows the conflict events that truly occured in September 2019, and the one on the right shows the conflct events predicted by the model. We can see that the model is predicting conflict very effectively. </p>
+	  
+	  <br><center><img src="img/Results.jpg" width="80%"></center><br>
+    </div>
+  </section>
+  
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Contact</h2>
+          <hr class="divider my-4">
+          <a href="mailto:shruti_jain@berkeley.edu" target="_blank">Email | </a>
+		  <a href="https://shrutijain90.github.io/" target="_blank">Portfolio | </a>
+		  <a href="https://www.linkedin.com/in/shrutijain90/" target="_blank">LinkedIn | </a>
+		  <a href="https://github.com/shrutijain90" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>
