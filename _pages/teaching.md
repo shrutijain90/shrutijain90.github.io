@@ -8,7 +8,6 @@ nav_order: 5
 
 &nbsp;
 
-
 Teaching Assistantships:
 
 - New Environmental Economic Thinking, Oxford School of Geogrpahy and the Environment, 2023
@@ -22,6 +21,6 @@ Teaching Assistantships:
 
 Seminars and Workshops led:
 
-- GIS Skills Workshop, Oxford School of Geogrpahy and the Environment, 2023
+- GIS Skills Workshop, Oxford School of Geogrpahy and the Environment, 2022
 - [Crop type mapping using satellite data](https://github.com/shrutijain90/geo4dev-ct-map), CEGA Geospatial Analysis for Development (Geo4Dev) Workshop Series, 2022
 - Using remote sensing with LSMS surveys to map maize area and yield in Sub-Saharan Africa. World Bank Development Data Partnership, 2021
