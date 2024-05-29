@@ -10,4 +10,4 @@ order: 2
 Current CV hosted <a href="/assets/pdf/CV_Shruti_Jain.pdf" target="_blank">here</a>.
 
 
-[Last updated: 28 May 2023]
+[Last updated: May 2024]
