@@ -12,7 +12,7 @@ nav_order: 3
 #### peer-reviewed papers
 
 <div class="publications">
-{% bibliography -f papers -q @*[year={{y}}]* %}
+{% bibliography -f papers -q @* %}
 </div>
 
 &nbsp;
@@ -20,7 +20,7 @@ nav_order: 3
 #### working papers
 
 <div class="publications">
-{% bibliography -f workingpapers -q @*[year={{y}}]* %}
+{% bibliography -f workingpapers -q @* %}
 </div>
 
 &nbsp;
@@ -28,7 +28,7 @@ nav_order: 3
 #### datasets
 
 <div class="publications">
-{% bibliography -f datasets -q @*[year={{y}}]* %}
+{% bibliography -f datasets -q @* %}
 </div>
 
 &nbsp;
@@ -36,5 +36,5 @@ nav_order: 3
 #### conference proceedings
 
 <div class="publications">
-{% bibliography -f conferences -q @*[year={{y}}]* %}
+{% bibliography -f conferences -q @* %}
 </div>
