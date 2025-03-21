@@ -4,9 +4,9 @@ repo_description_lines_max: 2
 
 github_repos:
   - shrutijain90/food_trade_networks
-  - shrutijain90/food_product_impacts
-  - shrutijain90/future_food_scenarios 
-  - shrutijain90/eetc
+  - shrutijain90/future_food_scenarios
+  - shrutijain90/food_product_impacts 
   - shrutijain90/geo4dev-ct-map
+  - shrutijain90/eetc
   - shrutijain90/aerial-photos 
   - shrutijain90/peace-map
