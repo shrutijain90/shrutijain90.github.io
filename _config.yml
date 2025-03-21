@@ -37,7 +37,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-# rss_icon: true
+rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -46,8 +46,8 @@ repo_trophies:
 navbar_fixed: true
 footer_fixed: true
 search_enabled: false
-# socials_in_search: true
-# bib_search: true
+socials_in_search: true
+bib_search: true
 
 # Dimensions
 max_width: 930px
@@ -92,7 +92,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: fakse
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -129,24 +129,24 @@ giscus:
 # Newsletter
 # -----------------------------------------------------------------------------
 
-# newsletter:
-#   enabled: false
-#   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
+newsletter:
+  enabled: false
+  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
-# collections:
-#   books:
-#     output: true
-#   news:
-#     defaults:
-#       layout: post
-#     output: true
-#   projects:
-#     output: true
+collections:
+  books:
+    output: false
+  news:
+    defaults:
+      layout: post
+    output: false
+  projects:
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
