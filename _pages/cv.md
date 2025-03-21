@@ -13,7 +13,7 @@ toc:
 layout: page
 permalink: /cv/
 title: cv
-# redirect: https://shrutijain90.github.io/cv/assets/pdf/CV_Shruti_Jain.pdf
+# redirect: https://shrutijain90.github.io/assets/pdf/CV_Shruti_Jain.pdf
 nav_order: true
 order: 2
 ---
