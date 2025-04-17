@@ -9,14 +9,14 @@ nav_order: 4
 
 &nbsp;
 
-University of Oxford:
+University of Oxford (Graduate Teaching Assistant):
 
 - Sustainable Finance, Oxford School of Geogrpahy and the Environment, 2024
 - Business Strategy for Sustainability, Oxford School of Geogrpahy and the Environment, 2024
 - New Environmental Economic Thinking, Oxford School of Geogrpahy and the Environment, 2023
 - Methods and Data, Oxford School of Geogrpahy and the Environment, 2023
 
-University of California, Berkeley:
+University of California, Berkeley (Graduate Teaching Assistant):
 
 - PP 210B, The Economics of Public Policy Analysis, UC Berkeley Goldman School of Public Policy, 2018
 - PP 210A, The Economics of Public Policy Analysis, UC Berkeley Goldman School of Public Policy, 2017
